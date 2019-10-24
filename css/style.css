@@ -1,44 +1,30 @@
-* {
-    margin:0;
+/* --- general rules start */
+header, main, footer {
+    text-align: center;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#signature {
-    width: 300px;
-    display: inline-block;
-    margin-top: 100px;
-    margin-left: 150px;
-}
-
-nav {
-    display: flex;
-    justify-content: space-around;
-}
-
-ul {
+.nav-item {
     list-style-type: none;
+
+}
+
+/* --- general rules end --- */
+
+/* --- header start --- */
+
+.header-logo {
+    width: 260px;
+    margin-top: 15px;
+}
+
+.header-list {
+    margin: 15px auto;
+    padding: 0;
     display: flex;
-    margin-top: 130px;
+    flex-direction: column;
 }
 
-nav a {
-    text-decoration: none;
-    margin-right: 150px;
-}
-
-nav ul li {
-border-right: 1px solid #000;
-}
-
-nav ul li:last-of-type {
-border-right: none;
-}
-
-nav ul ul li {
-border-right: none;
+.header-list-item {
+    padding: 20px;
+    width: 85%;
 }
