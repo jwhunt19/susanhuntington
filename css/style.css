@@ -1,0 +1,44 @@
+* {
+    margin:0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#signature {
+    width: 300px;
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin-top: 130px;
+}
+
+nav a {
+    text-decoration: none;
+    margin-right: 150px;
+}
+
+nav ul li {
+border-right: 1px solid #000;
+}
+
+nav ul li:last-of-type {
+border-right: none;
+}
+
+nav ul ul li {
+border-right: none;
+}
