@@ -9,8 +9,7 @@
         <meta name="author" content="indigoStack">
         <link rel="icon" href="img/icon.png" type="image/x-icon">
         <link href="https://fonts.googleapis.com/css?family=Big+Shoulders+Text|Roboto&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
         <header class="primary-header">
@@ -35,11 +34,21 @@
 
         </header>
         <main>
-
+            <form id="gallery-search">
+                <input type="text" placeholder="Search gallery">
+            </form>
+            <div class="gallery">
+                <a href="img/art/susanCat.png" data-lightbox="gallery-group" data-alt="animal animals cat kitty orange tabby blue">
+                    <img src="img/art/susanCat.png" alt="orange tabby">
+                </a>
+            </div>
         </main>
         <footer>
 
         </footer>
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/lightbox2-2.11.1/dist/js/lightbox.min.js"></script>
+        <script src="js/main.js"></script>
     </body>
 
 </html>
