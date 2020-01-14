@@ -1,5 +1,5 @@
 body {
-    color: black;
+    color: $primaryFontColor;
     font-size: 1em;
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
@@ -8,4 +8,8 @@ body {
 
 a {
     text-decoration: none;
+}
+
+a:visited{
+  color:$primaryFontColor;
 }
