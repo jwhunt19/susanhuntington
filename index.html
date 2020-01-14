@@ -12,37 +12,89 @@
         <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
-        <header class="primary-header">
-            <img class="header-logo" src="img/signature.png">
-            <nav class="navbar">
-                <ul class="navbar-list" >
-                    <li class="navbar-list-item"><a>HOME</a></li>
-                    <li class="navbar-list-item"><a>ABOUT</a></li>
-                    <li class="navbar-list-item"><a>PORTFOLIO</a></li>
-                    <li class="navbar-list-item"><a>CONTACT</a></li>
-                </ul>
-            </nav>
-            <section class="header-profile">
-                <h1 class="profile-title">Susan Huntington</h1>
-                <img class="profile-img" src="img/SusanHuntington.jpg" alt="Susan Huntington holding her dog lilly">
-                <p class="profile-text">
-                    Susan is a passionate animal lover, and found that painting animals was the
-                    perfect way to marry her two passions.  Although she’s painted still lifes
-                    and landscapes along the way, she really enjoyed painting animals the most.
-                </p>
-            </section>
-
-        </header>
+        <!-- header -->
+        <header>
+            <span><img class="header-logo" src="img/signature-small.png"></span>
+            <button class="hamburger">&#9776;</button>
+            <button class="cross">&#735;</button>
+        </header>  
+        <div class="menu">
+            <ul>
+                <li><a>BACK TO TOP</a></li>
+                <li><a href="#gallery">GALLERY</a></li>
+                <li><a>ABOUT</a></li>
+                <li><a>CONTACT</a></li>
+            </ul>
+        </div> 
         <main>
-            <form id="gallery-search">
-                <input type="text" placeholder="Search gallery">
-            </form>
-            <div class="gallery">
-                <a href="img/art/susanCat.png" data-lightbox="gallery-group" data-alt="animal animals cat kitty orange tabby blue">
+            <!-- gallery -->
+            <div id="gallery">
+                <a href="img/art/susanCat.png" data-lightbox="gallery-group">
                     <img src="img/art/susanCat.png" alt="orange tabby">
                 </a>
+                <a href="img/art/susanCat2.png" data-lightbox="gallery-group">
+                    <img src="img/art/susanCat2.png" alt="grey tabby">
+                </a>
+                <a href="img/art/susanDog.png" data-lightbox="gallery-group">
+                    <img src="img/art/susanDog.png" alt="">
+                </a> 
+                <a href="img/art/susanDog2.png" data-lightbox="gallery-group">
+                    <img src="img/art/susanDog2.png" alt="">
+                </a> 
+                <a href="img/art/susanCar.png" data-lightbox="gallery-group">
+                    <img src="img/art/susanCar.png" alt="">
+                </a> 
+                <a href="img/art/susanCar2.png" data-lightbox="gallery-group">
+                    <img src="img/art/susanCar2.png" alt="">
+                </a> 
+                <a href="img/art/susanDog3.png" data-lightbox="gallery-group">
+                    <img src="img/art/susanDog3.png" alt="">
+                </a> 
+                <a href="img/art/susanDog4.png" data-lightbox="gallery-group">
+                    <img src="img/art/susanDog4.png" alt="">
+                </a> 
+                <a href="img/art/susanShell.png" data-lightbox="gallery-group">
+                    <img src="img/art/susanShell.png" alt="">
+                </a> 
+                <a href="img/art/susanHorse.png" data-lightbox="gallery-group">
+                    <img src="img/art/susanHorse.png" alt="">
+                </a> 
+                <a href="img/art/susanDog5.png" data-lightbox="gallery-group">
+                    <img src="img/art/susanDog5.png" alt="">
+                </a> 
+                <a href="img/art/susanDog6.png" data-lightbox="gallery-group">
+                    <img src="img/art/susanDog6.png" alt="">
+                </a> 
+                <a href="img/art/susanDog7.png" data-lightbox="gallery-group">
+                    <img src="img/art/susanDog7.png" alt="">
+                </a> 
+                <a href="img/art/susanDog8.png" data-lightbox="gallery-group">
+                    <img src="img/art/susanDog8.png" alt="">
+                </a> 
+                <a href="img/art/susanDog9.png" data-lightbox="gallery-group">
+                    <img src="img/art/susanDog9.png" alt="">
+                </a> 
+                <a href="img/art/susanDog10.png" data-lightbox="gallery-group">
+                    <img src="img/art/susanDog10.png" alt="">
+                </a> 
+                <a href="img/art/susanDog11.png" data-lightbox="gallery-group">
+                    <img src="img/art/susanDog11.png" alt="">
+                </a> 
+            </div>
+            <!-- about -->
+            <div id="about">
+                <section class="header-profile">
+                    <h1 class="profile-title">Susan Huntington</h1>
+                    <img class="about-img" src="img/SusanHuntington.jpg" alt="Susan Huntington holding her dog lilly">
+                    <p class="profile-text">
+                        Susan is a passionate animal lover, and found that painting animals was the
+                        perfect way to marry her two passions.  Although she’s painted still lifes
+                        and landscapes along the way, she really enjoyed painting animals the most.
+                    </p>
+                </section>
             </div>
         </main>
+        <!-- footer -->
         <footer>
 
         </footer>
