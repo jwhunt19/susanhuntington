@@ -3,6 +3,7 @@
 @import 'modules/mixins'; // import mixins
 
 // Base
+@import 'base/base'; // Base stylings
 @import 'base/normalize'; // normalize.css v8.0.1
 @import 'base/reset'; // Reset CSS v2.0 | 20110126
 @import 'base/typography'; // Typography rules
@@ -12,4 +13,6 @@
 
 // Partials
 @import 'partials/header'; // Header styles
-@import 'partials/body'; // Primary styles
+@import 'partials/gallery'; // Gallery styles
+@import 'partials/about'; // About section styles
+@import 'partials/footer'; // Footer styles
