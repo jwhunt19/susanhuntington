@@ -1,0 +1,22 @@
+#about {
+    background: darken($color: $primCol, $amount: 2%);
+    border-top: solid 1px darken($color: $primCol, $amount: 4%);
+    border-bottom: solid 1px darken($color: $primCol, $amount: 4%);
+}
+
+.about-title {
+    padding-top: 22px;
+    font-size: 32px;
+}
+
+.about-img {
+    width: 250px;
+    border-radius: 3px;
+    border: solid 1px black;
+}
+
+.about-text {
+    width: 300px;
+    margin: auto;
+    padding-bottom: 10px;
+}
