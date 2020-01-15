@@ -1,0 +1,6 @@
+footer {
+    font-size: 10px;
+    border-top: solid 1px darken($color: $primCol, $amount: 7%);;
+    color: gray;
+    background-color: darken($color: $primCol, $amount: 3%);
+}
