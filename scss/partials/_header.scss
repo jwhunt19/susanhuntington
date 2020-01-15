@@ -1,55 +1,45 @@
-body {
-    font-family: 'Noto Sans', sans-serif;
-    margin:0;
-    width:100%;
-    height:100vh;
-    background:#ffffff;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
 header {
     width:100%; 
     background:#ffffff; 
     background-image: url('../../img/canvas.jpg');
     height:60px; 
     line-height:60px;
-    border-bottom:2px solid darken(#dddddd, 10%);
+    border-bottom:1px solid darken(#E3D1A5, 10%);
     top: 0;
     left: 0;
     position: fixed;
 }
 
 .hamburger {
-    background:none;
-    position:fixed;
-    top:0;
-    right:0;
-    line-height:45px;
-    padding:5px 15px 0px 15px;
-    color:#999;
-    border:0;
-    font-size:1.8em;
-    font-weight:bold;
-    cursor:pointer;
-    outline:none;
-    z-index:10000000000000;
+    background: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    line-height: 45px;
+    padding: 5px 15px 0px 15px;
+    color: #999;
+    border: 0;
+    font-size: 1.8em;
+    font-weight: bold;
+    cursor:  pointer;
+    outline: none;
+    z-index: 10000000000000;
 }
 
 .cross {
-    background:none;
-    position:fixed;
-    top:0px;
-    right:0;
-    padding:7px 15px 0px 15px;
-    color:#999;
-    border:0;
-    font-size:5em;
-    line-height:65px;
-    font-weight:bold;
-    cursor:pointer;
-    outline:none;
-    z-index:10000000000000;
+    background: none;
+    position: fixed;
+    top: 0px;
+    right: 0;
+    padding: 7px 15px 0px 15px;
+    color: #999;
+    border: 0;
+    font-size: 5em;
+    line-height: 65px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    z-index: 10000000000000;
 }
 
 .header-logo {
@@ -69,7 +59,7 @@ header {
     position:fixed; 
     text-align:center; 
     font-size:12px;
-    top:60px;
+    top:61px;
     ul {
         margin: 0; 
         padding: 0; 
